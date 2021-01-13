@@ -63,34 +63,6 @@ public class Seat implements ActionListener{
 		GridLayout gl = new GridLayout(5,5,5,5);
 		window.setLayout(gl);
 		
-		
-		
-//		window.add(A1);
-//		window.add(A2);
-//		window.add(A3);
-//		window.add(A4);
-//		
-//		window.add(B1);
-//		window.add(B2);
-//		window.add(B3);
-//		window.add(B4);
-//		
-//		window.add(A5);
-//		window.add(A6);
-//		window.add(A7);
-//		window.add(A8);
-//		
-//		window.add(B5);
-//		window.add(B6);
-//		window.add(B7);
-//		window.add(B8);
-//		
-//		window.add(A9);
-//		window.add(A10);
-//		
-//		window.add(B9);
-//		window.add(B10);
-		
 		for(int i = 0; i < buttons.length; i++){
 			window.add(buttons[i]);
 		
